@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 import os
 from PIL import Image
-import shap
+
 from sklearn.preprocessing import StandardScaler, PolynomialFeatures
 
 st.set_page_config(page_title='Protein RMSD Prediction', layout='wide')
